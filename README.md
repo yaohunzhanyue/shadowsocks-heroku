@@ -65,7 +65,7 @@ Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 - camellia-128-cfb
 
 ### 四、启动本地 client：
-1. **进到本项目目录**，执行`npm install` 命令，安装依赖的库（如没有 npm ，请自行安装，[npm安装依赖慢](http://www.cnblogs.com/xueweihan/p/5491730.html)）
+1. **clone到本地，进到本项目目录**，执行`npm install` 命令，安装依赖的库（如没有 npm ，请自行安装，[npm安装依赖慢](http://www.cnblogs.com/xueweihan/p/5491730.html)）
 2. 启动本地 client，`node local.js -s 你的app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -r 80`
 3. 启动成功，命令行显示：`server listening at { address: '127.0.0.1', family: 'IPv4', port: 1080 }`
 
